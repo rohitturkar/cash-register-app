@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash-register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Cash Register</h1>
+        <label class="label-heading" for="input-text">Bill Amount :</label>
+        <input type="text" name="" id="input-text">
+        <label class="label-heading" for="cash-given">Cash Given :</label>
+        <input type="text" name="" id="cash-given">
+        <button id="calculate-btn">Calculate</button>
+        <button id="clear-btn">Clear</button>
+        <div id="errorMsg"></div>
+        <div id="change">Return change</div>
+        <table>
+            <tr>
+                <th>No. of Notes</th>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+                <td id="noOfnotes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>1</td>
+            </tr>
+        </table>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+:root{
+    --primary-color:#277BC0;
+    --dark-grey:#576F72;
+    --white-color:#fff;
+}
+
+.container{
+    display: block;
+    width:500px;
+    margin:auto;
+    text-align:center;
+    min-height:100px;
+    border:2px solid var(--primary-color);
+    border-radius:2rem;
+}
+
+#input-text{
+    display:block;
+    margin:1rem auto;
+    padding:1rem 2rem;
+    width:50%;
+    border:2px solid var(--primary-color);
+}
+
+#cash-given{
+    display:block;
+    margin:1rem auto;
+    padding:1rem 2rem;
+    width:50%;
+    border:2px solid var(--primary-color);
+}
+.label-heading{
+    font-size:1rem;
+    font-weight:600;
+}
+#calculate-btn{
+    display:inline-block;
+    padding:0.5rem 1rem;
+    margin:0.5rem;
+    border:2px solid var(--dark-grey);
+    background-color:var(--primary-color);
+    color:var(--white-color);
+    font-size:1rem;
+    border-radius: 0.5rem;
+   
+}
+
+
+#clear-btn{
+    display:inline-block;
+    padding:0.5rem 1rem;
+    margin:0.5rem none;
+    border:2px solid var(--dark-grey);
+    background-color:var(--primary-color);
+    color:var(--white-color);
+    font-size:1rem;
+    border-radius: 0.5rem;
+    
+}
+
+#errorMsg{
+    font-size:1.2rem;
+    font-weight:bold;
+    margin:0.5rem auto;
+}
+
+#change{
+    font-size:1.5rem;
+    font-weight:bold;
+    margin-top:0.5rem ;
+}
+
+table{
+    margin-bottom:0.5rem;
+    width:100%;
+    padding:1rem ;
+    table-layout: fixed; 
+    
+}
+table th,td{
+    border:2px solid var(--dark-grey);
+}
+table #noOfnotes{
+    background-color:var(--white-color);
+}
+
