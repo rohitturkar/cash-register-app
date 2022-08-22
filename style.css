@@ -1,3 +1,4 @@
+
 :root{
     --primary-color:#277BC0;
     --dark-grey:#576F72;
@@ -16,17 +17,19 @@
 
 #input-text{
     display:block;
+    width:50%;
     margin:1rem auto;
     padding:1rem 2rem;
-    width:50%;
+    font-size:1.2rem;
     border:2px solid var(--primary-color);
 }
 
 #cash-given{
     display:block;
-    margin:1rem auto;
-    padding:1rem 2rem;
     width:50%;
+    margin:1rem auto;
+   padding:1rem 2rem;
+    font-size:1.2rem;
     border:2px solid var(--primary-color);
 }
 .label-heading{
@@ -83,4 +86,7 @@ table th,td{
 table #noOfnotes{
     background-color:var(--white-color);
 }
+
+
+
 
