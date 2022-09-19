@@ -6,13 +6,12 @@ const errorMsg=document.querySelector("#errorMsg");
 const noOfNotes=document.querySelectorAll("#noOfnotes");
 
 let availableNotes=[2000,500,100,50,20,10,5,1];
-let billAmountValue=Number(billAmount.value);
-let cashGivenAmount=Number(cashGiven.value);
+
 
 calculateBtn.addEventListener("click",function validateBillAmountAndCashGiven(){
     hideMessage();
     if(billAmount.value>0){
-   if(cashGivenAmount>=billAmountValue){
+   if(cashGiven.value>=billAmount.value){
      const amountTobeReturned=cashGiven.value-billAmount.value;
      calculateChange(amountTobeReturned);
    }

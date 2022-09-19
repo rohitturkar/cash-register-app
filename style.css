@@ -7,7 +7,7 @@
 
 .container{
     display: block;
-    width:500px;
+    max-width:600px;
     margin:auto;
     text-align:center;
     min-height:100px;
